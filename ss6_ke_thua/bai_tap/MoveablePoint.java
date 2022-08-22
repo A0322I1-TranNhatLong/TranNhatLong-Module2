@@ -3,7 +3,6 @@ package ss6_ke_thua.bai_tap;
 public class MoveablePoint extends Point {
     protected float xSpeed;
     protected float ySpeed;
-
     public MoveablePoint() {
     }
     public MoveablePoint(float xSpeed, float ySpeed) {
