@@ -40,6 +40,6 @@ public class BinarySearch_dequi {
         System.out.println(binarySearch(list, 79));
         System.out.println(binarySearch(list, 1));
         System.out.println(binarySearch(list, 5));
-        System.out.println(binarySearch(list, 80)); 
+        System.out.println(binarySearch(list, 80));
     }
 }
