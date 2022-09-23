@@ -1,2 +1,0 @@
-package ss15_xu_li_ngoai_le_va_debug.bai_tap;public class su_dung_lop_illegalTriangleException {
-}
