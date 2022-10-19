@@ -2,7 +2,7 @@ package ss1_Introduction_to_Java.bai_tap;
 
 import java.util.Scanner;
 
-public class ung_dung_doc_so_thanh_chu {
+public class UngDungDocSoThanhChu {
     public static void main(String[] args) {
         int so;
         Scanner sc = new Scanner(System.in);

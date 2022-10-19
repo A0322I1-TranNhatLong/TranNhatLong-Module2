@@ -2,7 +2,7 @@ package ss1_Introduction_to_Java.bai_tap;
 
 import java.util.Scanner;
 
-public class ung_dung_chuyen_doi_tien_te {
+public class UngDungChuyenDoiTienTe {
     public static void main(String[] args) {
         double vnd = 23000;
         double usd;
