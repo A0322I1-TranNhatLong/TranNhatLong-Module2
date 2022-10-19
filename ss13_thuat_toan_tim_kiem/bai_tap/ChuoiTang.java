@@ -3,7 +3,7 @@ package ss13_thuat_toan_tim_kiem.bai_tap;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Chuoitang {
+public class ChuoiTang {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Nhật chuỗi bất kì: ");

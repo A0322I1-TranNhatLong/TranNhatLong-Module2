@@ -3,7 +3,7 @@ package ss13_thuat_toan_tim_kiem.bai_tap;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Chuoitanglientiep {
+public class ChuoiTangLienTiep {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Nhập chuỗi: ");
