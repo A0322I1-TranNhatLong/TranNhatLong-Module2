@@ -2,7 +2,7 @@ package ss3_mang_va_phuong_thuc_trong_java.bai_tap;
 
 import java.util.Scanner;
 
-public class tinh_tong_cac_so_o_mot_cot_xac_dinh {
+public class TinhTongCacSoOMotCotXacDinh {
     public static void main(String[] args) {
         float[][] a;
         Scanner sc=new Scanner(System.in);

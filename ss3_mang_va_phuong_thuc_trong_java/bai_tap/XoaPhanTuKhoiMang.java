@@ -2,7 +2,7 @@ package ss3_mang_va_phuong_thuc_trong_java.bai_tap;
 
 import java.util.Scanner;
 
-public class xoa_phan_tu_khoi_mang {
+public class XoaPhanTuKhoiMang {
     public static void main(String[] args){
         int size;
         int []  array;
