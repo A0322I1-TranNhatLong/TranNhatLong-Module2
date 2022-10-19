@@ -1,6 +1,6 @@
 package ss8_Clean_Code_Refactoring.bai_tap;
 
-public class refactoring {
+public class Refactoring {
     public static String getScore(int m_score1, int m_score2) {
         String score = "";
         int tempScore=0;
