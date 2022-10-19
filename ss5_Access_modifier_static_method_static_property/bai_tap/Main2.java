@@ -1,6 +1,6 @@
 package ss5_Access_modifier_static_method_static_property.bai_tap;
 
-public class main2 {
+public class Main2 {
     public static void main(String[] args) {
         Student student=new Student();
         student.setName("Phan Van A");

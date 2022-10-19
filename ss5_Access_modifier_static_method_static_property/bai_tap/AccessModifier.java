@@ -1,12 +1,12 @@
 package ss5_Access_modifier_static_method_static_property.bai_tap;
 
-public class Access_modifier {
+public class AccessModifier {
     private double radius=1.0;
     private String color="red";
 
-    public Access_modifier() {
+    public AccessModifier() {
     }
-    public Access_modifier(double radius) {
+    public AccessModifier(double radius) {
         this.radius = radius;
     }
     public double getRadius() {
