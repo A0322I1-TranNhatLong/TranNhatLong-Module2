@@ -2,7 +2,7 @@ package ss14_thuat_toan_sap_xep.bai_tap;
 
 import java.util.Scanner;
 
-public class minh_hoa_thuat_toan_sap_xep_chen {
+public class MinhHoaThuatToanSapXepChen {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter list size:");

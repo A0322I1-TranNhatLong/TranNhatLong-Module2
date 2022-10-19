@@ -1,6 +1,6 @@
 package ss14_thuat_toan_sap_xep.bai_tap;
 
-public class cai_dat_thuat_toan_sap_xep_chen {
+public class CaiDatThuatToanSapXepChen {
     static int[] list = {2, 16, 31, 5, 6, 1, 34, 3, 14, 12};
     public static void main(String[] args) {
         insertionSort(list);
