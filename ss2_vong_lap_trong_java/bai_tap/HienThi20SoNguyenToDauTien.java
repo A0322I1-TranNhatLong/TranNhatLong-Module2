@@ -1,8 +1,6 @@
 package ss2_vong_lap_trong_java.bai_tap;
 
-import java.util.Scanner;
-
-public class hien_thi_20_so_nguyen_to_dau_tien {
+public class HienThi20SoNguyenToDauTien {
     public static void main(String[] args) {
         int numbers ,count =0;
         int so = 1;
