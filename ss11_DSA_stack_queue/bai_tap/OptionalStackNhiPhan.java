@@ -2,7 +2,7 @@ package ss11_DSA_stack_queue.bai_tap;
 
 import java.util.Stack;
 
-public class Optional_stack_nhiphan {
+public class OptionalStackNhiPhan {
     public static void main(String[] args) {
         Stack<Integer> stackInteger=new Stack<>();
         int numberThapPhan=111;

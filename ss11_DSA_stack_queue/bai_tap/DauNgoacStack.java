@@ -2,7 +2,7 @@ package ss11_DSA_stack_queue.bai_tap;
 
 import java.util.Stack;
 
-public class DauNgoac_Stack {
+public class DauNgoacStack {
     public static void main(String[] args) {
         String string1="s * (s – a) * (s – b) * (s – c)";
         String string2="s * (s – a) * (s – b * (s – c)";

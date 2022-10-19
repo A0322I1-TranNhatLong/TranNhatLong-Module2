@@ -2,7 +2,7 @@ package ss11_DSA_stack_queue.bai_tap;
 
 import java.util.Stack;
 
-public class Daonguoc_stack {
+public class DaoNguocStack {
     public static void main(String[] args) {
         System.out.println("Ban đầu:");
         System.out.println("1 2 3 4 5 6 7 8 9 10");

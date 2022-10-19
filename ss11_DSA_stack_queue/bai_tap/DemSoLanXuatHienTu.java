@@ -2,7 +2,7 @@ package ss11_DSA_stack_queue.bai_tap;
 
 import java.util.TreeMap;
 
-public class dem_so_lan_xuat_hien_tu {
+public class DemSoLanXuatHienTu {
         public static void main(String[] args) {
             TreeMap<String,Integer> treeMapTu=new TreeMap<>();
             String str="I love CodeGym very much much ";
