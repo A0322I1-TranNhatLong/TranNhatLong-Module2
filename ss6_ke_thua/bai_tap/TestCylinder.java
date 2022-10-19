@@ -1,6 +1,6 @@
 package ss6_ke_thua.bai_tap;
 
-public class Test_cylinder {
+public class TestCylinder {
     public static void main(String[] args) {
         Cylinder cylinder=new Cylinder(3.5,"Black",4);
         System.out.println("Diện tích đáy: "+cylinder.area());

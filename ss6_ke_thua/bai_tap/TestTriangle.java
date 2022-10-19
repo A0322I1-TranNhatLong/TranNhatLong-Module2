@@ -1,6 +1,6 @@
 package ss6_ke_thua.bai_tap;
 
-public class test_Triangle {
+public class TestTriangle {
     public static void main(String[] args) {
         Triangle triangle=new Triangle(4.5,3,2.5);
         System.out.println("Diện tích tam giác: "+triangle.getArea());
