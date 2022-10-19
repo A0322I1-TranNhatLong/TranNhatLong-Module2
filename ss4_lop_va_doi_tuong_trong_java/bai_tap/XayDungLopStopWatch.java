@@ -1,13 +1,13 @@
 package ss4_lop_va_doi_tuong_trong_java.bai_tap;
 
-public class xay_dung_lop_stopwatch {
+public class XayDungLopStopWatch {
     private double startTime;
     private double endTime;
-    public xay_dung_lop_stopwatch() {
+    public XayDungLopStopWatch() {
         this.endTime = 0;
         this.startTime = 0;
     }
-    public xay_dung_lop_stopwatch(double startTime, double endTime) {
+    public XayDungLopStopWatch(double startTime, double endTime) {
         this.startTime = startTime;
         this.endTime = endTime;
     }
@@ -29,7 +29,7 @@ public class xay_dung_lop_stopwatch {
         return (this.endTime - this.startTime);
     }
     public static void main(String[] args) {
-        xay_dung_lop_stopwatch wacth = new xay_dung_lop_stopwatch();
+        XayDungLopStopWatch wacth = new XayDungLopStopWatch();
         int[] arr = new int[3];
         arr[0] = 1;
         arr[1] = 10;
