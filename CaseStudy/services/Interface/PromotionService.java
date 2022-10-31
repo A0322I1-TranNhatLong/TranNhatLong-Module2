@@ -1,2 +1,6 @@
-package CaseStudy.services.Interface;public interface PromotionService {
+package CaseStudy.services.Interface;
+
+public interface PromotionService {
+    void disPlayUseService();
+    void disPlayGetVoucher();
 }
