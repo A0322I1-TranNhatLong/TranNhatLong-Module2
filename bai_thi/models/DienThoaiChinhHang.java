@@ -1,7 +1,7 @@
 package bai_thi.models;
 
 public class DienThoaiChinhHang extends DienThoai{
-    public static final String FILE="D:\\CodeGym\\module_2\\src\\bai_thi\\data\\dsdienthoai.csv";
+    public static final String FILE="D:\\CodeGym\\module_2\\src\\bai_thi\\data\\dsdienthoaichinhhang.csv";
     private double thoiGianBaoHanh;
     private String phamViBaoHanh;
 

@@ -67,7 +67,7 @@ public class ServicesDienThoai {
         System.out.print("Nhà sản xuất: ");
         String nhaSanXuat = scanner.nextLine();
         System.out.print("Quốc gia xách tay: ");
-        double quocGiaXachTay = Double.parseDouble(scanner.nextLine());
+        String quocGiaXachTay = scanner.nextLine();
         System.out.print("Trạng thái: ");
         String trangThai = scanner.nextLine();
         DienThoaiXachTay dienThoaiXachTay = new DienThoaiXachTay(idDienThoai, tenDienThoai, giaBan, soLuong, nhaSanXuat, quocGiaXachTay, trangThai);

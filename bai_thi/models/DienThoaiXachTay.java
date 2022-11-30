@@ -1,25 +1,25 @@
 package bai_thi.models;
 
 public class DienThoaiXachTay extends DienThoai{
-    public static final String FILE="D:\\CodeGym\\module_2\\src\\bai_thi\\data\\dsdienthoai.csv";
-    private double quocGiaXachTay;
+    public static final String FILE="D:\\CodeGym\\module_2\\src\\bai_thi\\data\\dsdienthoaixachtay.csv";
+    private String quocGiaXachTay;
     private String trangThai;
 
     public DienThoaiXachTay() {
     }
 
     public DienThoaiXachTay(String idDienThoai, String tenDienThoai, double giaBan, int soLuong, String nhaSanXuat,
-                           double quocGiaXachTay, String trangThai) {
+                           String quocGiaXachTay, String trangThai) {
         super(idDienThoai, tenDienThoai, giaBan, soLuong, nhaSanXuat);
         this.quocGiaXachTay = quocGiaXachTay;
         this.trangThai = trangThai;
     }
 
-    public double getQuocGiaXachTay() {
+    public String getQuocGiaXachTay() {
         return quocGiaXachTay;
     }
 
-    public void setQuocGiaXachTay(double quocGiaXachTay) {
+    public void setQuocGiaXachTay(String quocGiaXachTay) {
         this.quocGiaXachTay = quocGiaXachTay;
     }
 
