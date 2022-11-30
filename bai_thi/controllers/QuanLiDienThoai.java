@@ -22,6 +22,7 @@ public class QuanLiDienThoai {
                     }
                     catch (Exception e)
                     {
+                        e.printStackTrace();
                         System.out.println("Tạo mới điện thoại không thành công!");
                     }
                     break;
