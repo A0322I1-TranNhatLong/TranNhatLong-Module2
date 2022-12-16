@@ -17,7 +17,8 @@ public class HienThiCacSoNguyenToNhoHon100 {
         if (so < 2) {
             return 0;
         } else {
-            for (int i = 1; i <= so; i++) {
+            for (int i = 1; i <= so; i++)
+            {
                 if (so % i == 0) {
                     d++;
                 }

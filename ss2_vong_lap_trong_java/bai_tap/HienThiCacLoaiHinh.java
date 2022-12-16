@@ -6,13 +6,13 @@ public class HienThiCacLoaiHinh {
     public static void main(String[] args) {
         int luachon;
         System.out.println("------MENU------");
-        System.out.println("1.In hình chữ nhật ");
-        System.out.println("2.In tam giác vuông góc dưới");
-        System.out.println("3.In tam giác vuông góc trên");
-        System.out.println("4.In tam giác cân");
-        System.out.println("0.Thoát");
+        System.out.println("1. In hình chữ nhật ");
+        System.out.println("2. In tam giác vuông góc dưới");
+        System.out.println("3. In tam giác vuông góc trên");
+        System.out.println("4. In tam giác cân");
+        System.out.println("0. Thoát");
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập lựa chọn của bạn: ");
+        System.out.println("Nhập lựa chọn của bạn : ");
         luachon = sc.nextInt();
         switch (luachon) {
             case 1 : {
@@ -45,7 +45,7 @@ public class HienThiCacLoaiHinh {
             case 4 :
             {
                 int n;
-                System.out.print("Nhập chiều cao tam giác: ");
+                System.out.print("Nhập chiều cao tam giác : ");
                 n=sc.nextInt();
                 for(int i=1;i<=n;i++)
                 {
@@ -66,7 +66,7 @@ public class HienThiCacLoaiHinh {
             }
             default :
             {
-                System.out.print("Hãy nhập lựa chọn: ");
+                System.out.print("Hãy nhập lựa chọn : ");
             }
         }
     }
