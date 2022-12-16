@@ -25,7 +25,7 @@ public class XoaPhanTuKhoiMang {
         vitri= Index(so,array);
         if(Index(so,array)==-1)
         {
-            System.out.print("Số cần xóa không có trong mảng ");
+            System.out.print("Số cần xóa không có trong mảng ! ");
             for(int i : array)
             {
                 System.out.print(i+"\t");

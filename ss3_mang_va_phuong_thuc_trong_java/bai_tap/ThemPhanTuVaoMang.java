@@ -11,14 +11,14 @@ public class ThemPhanTuVaoMang {
             System.out.print(array[i]+" ");
         }
         System.out.println("");
-        System.out.print("Nhập phần tử cần chèn: ");
+        System.out.print("Nhập phần tử cần chèn : ");
         Scanner sc=new Scanner(System.in);
         int x=sc.nextInt();
-        System.out.print("Nhập vị trí chèn vào: ");
+        System.out.print("Nhập vị trí chèn vào : ");
         int index=sc.nextInt();
         if(index>n)
         {
-            System.out.println("Không chèn được vào mảng!");
+            System.out.println("Không chèn được vào mảng !");
         }
         else
         {
@@ -32,7 +32,7 @@ public class ThemPhanTuVaoMang {
                 array[index]=x;
             }
             n++;
-            System.out.println("Sau khi chèn: ");
+            System.out.println("Sau khi chèn : ");
             for (int i=0; i<n; i++)
             {
                 System.out.print(array[i]+" ");

@@ -6,7 +6,7 @@ public class TimGiaTriNhoNhatTrongMang {
     public static void main(String[] args) {
         int[] a;
         Scanner sc=new Scanner(System.in);
-        System.out.print("Nhập số lượng phần tử của mảng: ");
+        System.out.print("Nhập số lượng phần tử của mảng : ");
         int n=sc.nextInt();
         a=new int[n];
         for (int i=0; i<n; i++)
