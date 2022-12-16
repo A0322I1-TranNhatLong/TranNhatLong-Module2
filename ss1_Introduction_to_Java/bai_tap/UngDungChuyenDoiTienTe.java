@@ -7,9 +7,9 @@ public class UngDungChuyenDoiTienTe {
         double vnd = 23000;
         double usd;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Mời bạn nhập số tiền USD: ");
+        System.out.print("Mời bạn nhập số tiền USD : ");
         usd = sc.nextDouble();
         double quydoi = usd * 23000;
-        System.out.print("Giá trị VNĐ: " + quydoi);
+        System.out.print("Giá trị VNĐ : " + quydoi);
     }
 }

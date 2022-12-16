@@ -6,7 +6,7 @@ public class UngDungDocSoThanhChu {
     public static void main(String[] args) {
         int so;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập số bất kì: ");
+        System.out.println("Nhập số bất kì : ");
         so = sc.nextInt();
         int tram = so / 100;
         int chuc = (so / 10) % 10;
