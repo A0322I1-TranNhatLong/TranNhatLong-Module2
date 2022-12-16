@@ -34,21 +34,21 @@ public class QuadraticEquation {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập số a: ");
+        System.out.print("Nhập số a : ");
         double a = scanner.nextDouble();
-        System.out.print("Nhập số b: ");
+        System.out.print("Nhập số b : ");
         double b = scanner.nextDouble();
-        System.out.print("Nhập số c: ");
+        System.out.print("Nhập số c : ");
         double c = scanner.nextDouble();
         QuadraticEquation n = new QuadraticEquation(a, b, c);
         double delta = n.getDelta();
         if (delta > 0) {
-            System.out.println("Phương trình có 2 nghiệm: ");
+            System.out.println("Phương trình có 2 nghiệm : ");
             System.out.printf("x1 = %.2f, x2 = %.2f", n.getNghiem1(), n.getNghiem2());
         } else if (delta == 0) {
             System.out.printf("x=" + n.getNghiem1());
         } else {
-            System.out.println("Phương trình vô nghiệm");
+            System.out.println("Phương trình vô nghiệm !");
         }
     }
 }

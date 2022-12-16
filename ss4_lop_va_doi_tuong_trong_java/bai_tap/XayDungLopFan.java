@@ -47,12 +47,12 @@ public class XayDungLopFan {
     }
     @Override
     public String toString() {
-        String str="fan is on";
-        if(this.on==false) str="fan is off";
-        return "Fan{ on=" + on +
-                ", speed=" + speed +
-                ", radius=" + radius +
-                ", color='" + color + '\'' +
+        String str="Fan is on";
+        if(this.on==false) str="Fan is off";
+        return "Fan{ on =" + on +
+                ", speed =" + speed +
+                ", radius =" + radius +
+                ", color ='" + color + '\'' +
                 ", "+str+" "+
                 '}';
     }

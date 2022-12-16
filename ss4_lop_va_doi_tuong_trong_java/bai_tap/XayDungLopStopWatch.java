@@ -19,11 +19,11 @@ public class XayDungLopStopWatch {
     }
     public void Start() {
         this.startTime = System.currentTimeMillis();
-        System.out.println("Time Begin accessing the algorithm selection sort is: " + this.startTime);
+        System.out.println("Time Begin accessing the algorithm selection sort is : " + this.startTime);
     }
     public void End() {
         this.endTime = System.currentTimeMillis();
-        System.out.println("Time Ending accessing the algorithm selection sort is: " + this.endTime);
+        System.out.println("Time Ending accessing the algorithm selection sort is : " + this.endTime);
     }
     public double getElapsedTime() {
         return (this.endTime - this.startTime);
@@ -40,7 +40,7 @@ public class XayDungLopStopWatch {
             if (arr[i] > max)
                 max = arr[i];
         }
-        System.out.println("Max is: " + max);
+        System.out.println("Max is : " + max);
         wacth.End();
         System.out.println(wacth.getElapsedTime());
     }
