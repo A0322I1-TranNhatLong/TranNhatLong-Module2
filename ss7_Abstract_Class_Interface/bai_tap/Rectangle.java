@@ -46,7 +46,7 @@ public class Rectangle extends Shape implements Resizeable {
 
     @Override
     public String toString() {
-        return "A Rectangle with width="
+        return " A Rectangle with width = "
                 + getWidth()
                 + " and length="
                 + getLength()

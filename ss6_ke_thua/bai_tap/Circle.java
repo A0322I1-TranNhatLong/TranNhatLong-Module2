@@ -2,7 +2,7 @@ package ss6_ke_thua.bai_tap;
 
 public class Circle {
     private double radius=1.0;
-    private String color="White";
+    private String color=" White ";
     public Circle() {
     }
     public Circle(double radius, String color) {

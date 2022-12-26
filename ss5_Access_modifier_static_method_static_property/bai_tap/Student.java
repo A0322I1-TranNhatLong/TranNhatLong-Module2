@@ -2,7 +2,7 @@ package ss5_Access_modifier_static_method_static_property.bai_tap;
 
 public class Student {
     private String name;
-    private String classe="C02";
+    private String classe=" C02 ";
 
     public Student() {
     }

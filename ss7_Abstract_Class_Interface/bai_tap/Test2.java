@@ -14,14 +14,14 @@ public class Test2 {
         {
             if(shape instanceof Square_Colorable) {
                 Square_Colorable square_colorable=(Square_Colorable) shape;
-                System.out.println("Đối tượng Square_Colorable có S = "+square_colorable.getArea());
+                System.out.println(" Đối tượng Square_Colorable có S = "+square_colorable.getArea());
                 square_colorable.howToColor();
             }
             else
             if(shape instanceof Circle)
             {
                 Circle circle=(Circle) shape;
-                System.out.println("Đối tượng Circle có S = "+circle.getArea());
+                System.out.println(" Đối tượng Circle có S = "+circle.getArea());
             }
             else
             if(shape instanceof Rectangle)

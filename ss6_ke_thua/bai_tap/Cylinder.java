@@ -22,6 +22,6 @@ public class Cylinder extends Circle {
     @Override
     public String toString() {
         return super.toString()+
-                ",height=" + height;
+                ", height=" + height;
     }
 }

@@ -29,13 +29,13 @@ public class Refactoring {
             }
             switch (tempScore) {
                 case 0:
-                    score += "Love";
+                    score += " Love";
                     break;
                 case 1:
-                    score += "Fifteen";
+                    score += " Fifteen";
                     break;
                 case 2:
-                    score += "Thirty";
+                    score += " Thirty";
                     break;
                 case 3:
                     score += "Forty";
