@@ -31,6 +31,6 @@ public class Point3D extends Point {
         return "(" + x +
                 "," + y +
                 ","+z+
-                ' )';
+                ')';
     }
 }
