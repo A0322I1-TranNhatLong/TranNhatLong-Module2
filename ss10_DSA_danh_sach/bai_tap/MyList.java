@@ -73,7 +73,7 @@ public class MyList<E> {
     }
 
     public void clear() {
-        elements = (E[]) new Object[DEFAULT_CAPACITY];
+        elements = (E[]) new Object[ DEFAULT_CAPACITY];
         size = 0;
     }
 
