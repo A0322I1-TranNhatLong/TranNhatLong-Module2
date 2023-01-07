@@ -17,8 +17,8 @@ public class Test_LinkedList_Product {
         System.out.println("Sắp xếp theo giá:");
         productLinkedList.sortProduct();
         System.out.println(productLinkedList);
-        System.out.println("Xóa theo id:");
-        System.out.println("Xóa id: 1003");
+        System.out.println("Xóa theo id :");
+        System.out.println("Xóa id : 1003");
         String idRemove="1003";
         if(productLinkedList.removeProduct(idRemove))
         {

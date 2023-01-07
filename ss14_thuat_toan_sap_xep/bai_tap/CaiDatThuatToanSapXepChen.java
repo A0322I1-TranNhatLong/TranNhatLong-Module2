@@ -1,7 +1,7 @@
 package ss14_thuat_toan_sap_xep.bai_tap;
 
 public class CaiDatThuatToanSapXepChen {
-    static int[] list = {2, 16, 31, 5, 6, 1, 34, 3, 14, 12};
+    static int[] list = { 2, 16, 31, 5, 6, 1, 34, 3, 14, 12 };
     public static void main(String[] args) {
         insertionSort(list);
         for (int i = 0; i < list.length; i++)

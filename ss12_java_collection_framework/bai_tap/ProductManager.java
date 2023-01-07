@@ -10,7 +10,7 @@ public class ProductManager extends Product{
         arrayProduct=new ArrayList<>();
     }
     @Override
-    public void addProduct(SanPham sanPham) {
+    public void addProduct( SanPham sanPham) {
         arrayProduct.add(sanPham);
     }
     @Override

@@ -51,7 +51,7 @@ public class SanPham implements Serializable {
     public String toString() {
         return "SanPham{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", name = '" + name + '\'' +
                 ", producer='" + producer + '\'' +
                 ", price=" + price +
                 ", otherDescription='" + otherDescription + '\'' +

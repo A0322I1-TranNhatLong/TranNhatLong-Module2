@@ -68,7 +68,7 @@ public class ProductLinkedList extends Product{
         String str="";
         for (SanPham sanPham:listSanPham)
         {
-            str+=sanPham.toString()+ '\n';
+            str+= sanPham.toString()+ '\n';
         }
 
         return str;

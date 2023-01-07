@@ -8,9 +8,9 @@ public class Opption_CoppyFile {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         Opption_CoppyFile copyFile=new Opption_CoppyFile();
-        System.out.print("Nhập đường dẫn nguồn: ");
+        System.out.print(" Nhập đường dẫn nguồn: ");
         String path1=scanner.nextLine();
-        System.out.print("Nhập đường dẫn đến đích: ");
+        System.out.print(" Nhập đường dẫn đến đích: ");
         String path2=scanner.nextLine();
 
         copyFile.copyFile(path1,path2);

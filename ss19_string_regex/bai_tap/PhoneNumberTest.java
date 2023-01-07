@@ -6,7 +6,7 @@ public class PhoneNumberTest {
         RegexPhoneNumber regex=new RegexPhoneNumber();
         for (String string: PhoneNumbers)
         {
-            System.out.println("Phone number "+string+" is "+regex.validate(string));
+            System.out.println(" Phone number "+string+" is "+regex.validate(string));
         }
     }
 }

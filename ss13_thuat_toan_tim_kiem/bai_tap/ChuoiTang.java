@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ChuoiTang {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Nhật chuỗi bất kì: ");
+        System.out.print(" Nhật chuỗi bất kì : ");
         String string= sc.nextLine();
         System.out.println("Chuỗi tăng dài nhất: "+chuoidai(string));
     }

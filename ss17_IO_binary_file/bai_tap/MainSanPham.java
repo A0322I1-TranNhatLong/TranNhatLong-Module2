@@ -11,10 +11,10 @@ public class MainSanPham {
         List<SanPham> sanPhams=readDataFromFile("productMain.txt");
         while (true)
         {
-            System.out.println("1.Thêm sản phẩm");
-            System.out.println("2.Hiển thị danh sách sản phẩm");
-            System.out.println("3.Tìm kiếm thông tin sản phẩm");
-            System.out.println("0.Exit");
+            System.out.println("1. Thêm sản phẩm");
+            System.out.println("2. Hiển thị danh sách sản phẩm");
+            System.out.println("3. Tìm kiếm thông tin sản phẩm");
+            System.out.println("0. Exit");
             System.out.print("Chọn chức năng: ");
             int goTo=scanner.nextInt();
             switch (goTo)

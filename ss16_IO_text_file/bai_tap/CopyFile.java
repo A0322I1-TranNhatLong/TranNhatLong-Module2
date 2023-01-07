@@ -25,7 +25,7 @@ public class CopyFile {
             }
             br.close();
         } catch (Exception e) {
-            System.err.println("File không tồn tại or nội dung có lỗi!");
+            System.err.println(" File không tồn tại or nội dung có lỗi !");
         }
         return arrayList;
     }

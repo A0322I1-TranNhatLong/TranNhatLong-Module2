@@ -4,8 +4,8 @@ import java.util.Stack;
 
 public class DauNgoacStack {
     public static void main(String[] args) {
-        String string1="s * (s – a) * (s – b) * (s – c)";
-        String string2="s * (s – a) * (s – b * (s – c)";
+        String string1="s * ( s – a) * (s – b) * (s – c)";
+        String string2="s * ( s – a) * (s – b * (s – c)";
         System.out.println(checkNgoac(string1));
         System.out.println(checkNgoac(string2));
     }

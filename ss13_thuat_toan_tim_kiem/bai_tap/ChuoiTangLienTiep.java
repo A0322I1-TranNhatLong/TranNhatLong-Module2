@@ -8,7 +8,7 @@ public class ChuoiTangLienTiep {
         Scanner sc=new Scanner(System.in);
         System.out.print("Nhập chuỗi: ");
         String string=sc.nextLine();
-        System.out.println("Chuỗi con tăng dài nhất là: "+chuoiDaiLienTiep(string));
+        System.out.println("Chuỗi con tăng dài nhất là : "+chuoiDaiLienTiep(string));
     }
 
     private static String chuoiDaiLienTiep(String string)

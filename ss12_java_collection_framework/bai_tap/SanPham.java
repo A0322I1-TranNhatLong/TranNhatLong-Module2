@@ -32,7 +32,7 @@ public class SanPham {
     @Override
     public String toString() {
         return "SanPham{" +
-                "idSanPham='" + idSanPham + '\'' +
+                " idSanPham='" + idSanPham + '\'' +
                 ", tenSanPham='" + tenSanPham + '\'' +
                 ", giaSanPham=" + giaSanPham +
                 '}';

@@ -4,9 +4,9 @@ import java.util.Stack;
 
 public class DaoNguocStack {
     public static void main(String[] args) {
-        System.out.println("Ban đầu:");
+        System.out.println(" Ban đầu :");
         System.out.println("1 2 3 4 5 6 7 8 9 10");
-        System.out.println("Một Hai Ba Bốn Năm Sáu Bảy Tám Chín Mười");
+        System.out.println(" Một Hai Ba Bốn Năm Sáu Bảy Tám Chín Mười");
         Stack<Integer> stackInt=new Stack<>();
         for (int i=1; i<=10; i++)
         {

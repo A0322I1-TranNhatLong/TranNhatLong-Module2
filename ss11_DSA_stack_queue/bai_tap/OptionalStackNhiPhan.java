@@ -12,7 +12,7 @@ public class OptionalStackNhiPhan {
             stackInteger.push(copyNumber%2);
             copyNumber/=2;
         }
-        System.out.print(numberThapPhan+" có hệ nhị phân: ");
+        System.out.print( numberThapPhan+" có hệ nhị phân: ");
         while (!stackInteger.empty())
         {
             System.out.print(stackInteger.pop());

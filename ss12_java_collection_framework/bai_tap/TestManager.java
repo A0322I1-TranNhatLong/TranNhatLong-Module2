@@ -13,7 +13,7 @@ public class TestManager {
         productManager.sortProduct();
         System.out.println(productManager);
         System.out.println("Xóa theo id:");
-        System.out.println("Xóa id: 1003");
+        System.out.println("Xóa id : 1003");
         String idRemove="1003";
         if(productManager.removeProduct(idRemove))
         {

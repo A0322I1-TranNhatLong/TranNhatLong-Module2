@@ -5,7 +5,7 @@ import java.util.TreeMap;
 public class DemSoLanXuatHienTu {
         public static void main(String[] args) {
             TreeMap<String,Integer> treeMapTu=new TreeMap<>();
-            String str="I love CodeGym very much much ";
+            String str=" I love CodeGym very much much ";
             String[] arrayStrings=str.split(" ");
             for(int i=0; i<arrayStrings.length; i++)
             {
