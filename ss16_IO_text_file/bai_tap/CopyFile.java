@@ -18,8 +18,7 @@ public class CopyFile {
                 throw new FileNotFoundException();
             }
             BufferedReader br = new BufferedReader(new FileReader(file));
-            String line = "";
-            int sum = 0;
+            String line;
             while ((line = br.readLine()) != null) {
                 arrayList.add(line);
             }

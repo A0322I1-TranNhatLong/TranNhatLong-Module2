@@ -13,8 +13,8 @@ public class MinhHoaThuatToanSapXepChen {
             list[i] = scanner.nextInt();
         }
         System.out.print("Your input list: ");
-        for (int i = 0; i < list.length; i++) {
-            System.out.print(list[i] + "\t");
+        for (int j : list) {
+            System.out.print(j + "\t");
         }
         System.out.println("\nBegin sort processing...");
         insertionSortStep(list);
@@ -32,8 +32,8 @@ public class MinhHoaThuatToanSapXepChen {
             array[pos] = x;
             System.out.println("Gán value tại index " + pos + " = " + x);
             System.out.print("List after the  " + i + "' sort: ");
-            for (int j = 0; j < array.length; j++) {
-                System.out.print(array[j] + "\t");
+            for (int k : array) {
+                System.out.print(k + "\t");
             }
             System.out.println();
         }

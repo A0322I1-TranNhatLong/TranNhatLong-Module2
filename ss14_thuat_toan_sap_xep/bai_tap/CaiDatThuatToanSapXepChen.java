@@ -4,8 +4,7 @@ public class CaiDatThuatToanSapXepChen {
     static int[] list = { 2, 16, 31, 5, 6, 1, 34, 3, 14, 12 };
     public static void main(String[] args) {
         insertionSort(list);
-        for (int i = 0; i < list.length; i++)
-            System.out.print(list[i] + " ");
+        for (int j : list) System.out.print(j + " ");
     }
     public static void insertionSort(int[] array){
         int pos, x;
