@@ -11,10 +11,10 @@ public class MainSanPham {
         List<SanPham> sanPhams=readDataFromFile("productMain.txt");
         while (true)
         {
-            System.out.println("1. Thêm sản phẩm");
-            System.out.println("2. Hiển thị danh sách sản phẩm");
-            System.out.println("3. Tìm kiếm thông tin sản phẩm");
-            System.out.println("0. Exit");
+            System.out.println("1.Thêm sản phẩm");
+            System.out.println("2.Hiển thị danh sách sản phẩm");
+            System.out.println("3.Tìm kiếm thông tin sản phẩm");
+            System.out.println("0.Exit");
             System.out.print("Chọn chức năng: ");
             int goTo=scanner.nextInt();
             switch (goTo)
@@ -35,7 +35,7 @@ public class MainSanPham {
                     String otherDescription=scanner.nextLine();
                     SanPham sanPham=new SanPham(id,name,product,price,otherDescription);
                     sanPhams.add(sanPham);
-                    addProduct(sanPhams,"productMain.txt");
+                    addProduct(sanPhams,"D:\\CodeGym\\module_2\\src\\ss17_IO_binary_file\\bai_tap\\productMain.txt");
                     System.out.println();
                     break;
                 case 2:
@@ -62,7 +62,7 @@ public class MainSanPham {
         }
     }
 
-    public static void addProduct(List<SanPham> sanPham, String path)
+    public static void addProduct(List<SanPham> sanPham,String path)
     {
         try {
             FileOutputStream fos = new FileOutputStream(path);

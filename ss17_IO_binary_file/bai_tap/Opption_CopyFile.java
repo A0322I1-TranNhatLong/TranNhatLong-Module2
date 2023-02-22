@@ -4,13 +4,13 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Opption_CoppyFile {
+public class Opption_CopyFile {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
-        Opption_CoppyFile copyFile=new Opption_CoppyFile();
-        System.out.print(" Nhập đường dẫn nguồn: ");
+       Scanner scanner=new Scanner(System.in);
+        Opption_CopyFile copyFile=new Opption_CopyFile();
+        System.out.print("Nhập đường dẫn nguồn: ");
         String path1=scanner.nextLine();
-        System.out.print(" Nhập đường dẫn đến đích: ");
+        System.out.print("Nhập đường dẫn đến đích: ");
         String path2=scanner.nextLine();
 
         copyFile.copyFile(path1,path2);
@@ -33,7 +33,7 @@ public class Opption_CoppyFile {
             }
             ir.close();
         } catch (Exception e) {
-            System.err.println("File không tồn tại hoặc nội dung có lỗi!");
+            System.err.println("File không tồn tại or nội dung có lỗi!");
         }
         return arrayList;
     }
@@ -52,6 +52,7 @@ public class Opption_CoppyFile {
             e.printStackTrace();
         }
     }
+
     public void copyFile(String filePath1,String filePath2)
     {
         writeFile(filePath2,readFileText(filePath1));
