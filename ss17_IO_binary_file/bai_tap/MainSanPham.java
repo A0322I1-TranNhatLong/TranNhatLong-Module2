@@ -66,7 +66,7 @@ public class MainSanPham {
     {
         try {
             FileOutputStream fos = new FileOutputStream(path);
-            ObjectOutputStream oos = new ObjectOutputStream(fos);
+           ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(sanPham);
             oos.close();
             fos.close();
