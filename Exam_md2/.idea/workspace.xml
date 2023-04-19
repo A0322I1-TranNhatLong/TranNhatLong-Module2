@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b35535af-4056-4348-b773-d72165eac472" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/MedicalRecordsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/medical_records.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/GeneralRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/MedicalRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/VipRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/MedicalRecordsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/MedicalRecordsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untils/NotFoundMedicalRecordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untils/ReadAndWriteCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/Validate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index/simpleDateFormat.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Natwyg7wtZDJmDE0Fc3UDG04Mi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeGym/module_2/src/Exam_md2&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b35535af-4056-4348-b773-d72165eac472" name="Changes" comment="" />
+      <created>1679914262548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679914262548</updated>
+      <workItem from="1679914263776" duration="30000" />
+      <workItem from="1679914305447" duration="15000" />
+      <workItem from="1681471835208" duration="56000" />
+      <workItem from="1681903041882" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
